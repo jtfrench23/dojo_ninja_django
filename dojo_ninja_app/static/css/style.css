@@ -1,0 +1,29 @@
+h1{
+    font-size: 5rem;
+    color: Red;
+    text-align: center;
+}
+.forms_container{
+    display: flex;
+    justify-content: space-around;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    border: solid black 5px;
+    width: fit-content;
+    padding: 10px;
+}
+button{
+    width: 25%;
+}
+.school_list{
+    margin: 10px;
+    text-align: center;
+    border: 5px solid black;
+}
+p{
+    font-style: italic;
+}
